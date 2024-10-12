@@ -16,7 +16,7 @@ class Publisher
     
     public: 
 
-     void get_details() //function to get publisher details
+        void get_details() //function to get publisher details
         {
             cin.ignore();  //for error handling 
             cout << "Enter publisher's name: ";
