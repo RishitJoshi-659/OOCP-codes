@@ -37,3 +37,25 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter votes for candidate 1-5 (press 0 to finish the voting): 
+2
+3
+4
+1
+8
+7
+3
+2
+0
+Vote counts:
+Candidate 1: 1 votes
+Candidate 2: 2 votes
+Candidate 3: 2 votes
+Candidate 4: 1 votes
+Candidate 5: 0 votes
+Spoilt ballots: 2
+*/
