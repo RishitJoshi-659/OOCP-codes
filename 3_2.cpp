@@ -28,3 +28,12 @@ int get_power(double m, int n)
 {
     return pow(m, n); //part of math.h library
 }
+
+/*
+Output Example:
+
+Enter Value of M: 5
+Enter the Value of M's power N: 3
+Power of M with given N: 125
+Power of M with default value 2: 25
+*/
