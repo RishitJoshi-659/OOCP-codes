@@ -26,3 +26,9 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Area: 15
+*/
