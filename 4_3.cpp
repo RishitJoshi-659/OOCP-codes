@@ -39,3 +39,10 @@ int main() {
 
     return 0;
 }
+
+/*
+Output Example:
+
+Display function called.
+Show function called.
+*/
