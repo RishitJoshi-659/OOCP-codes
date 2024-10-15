@@ -82,3 +82,31 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter number of rows and columns for Matrix: 2
+2
+Enter elements for a 2x2 matrix:
+4
+5
+3
+5
+Enter elements for a 2x2 matrix:
+2
+5
+6
+3
+
+Result of A + B:
+Matrix (2x2):
+6       10
+9       8
+
+Result of A - B:
+Matrix (2x2):
+2       0
+-3      2
+
+*/
