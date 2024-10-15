@@ -49,3 +49,14 @@ void swap_values(Class_A &a, Class_B &b)
     a.valA = b.valB; 
     b.valB = temp;  
 }
+
+/*
+Output Example:
+
+Before swapping: 
+Value in Class_A: 10
+Value in Class_B: 20
+After swapping: 
+Value in Class_A: 20
+Value in Class_B: 10
+*/
