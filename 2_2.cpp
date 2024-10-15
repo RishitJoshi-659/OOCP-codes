@@ -22,3 +22,11 @@ int area(int l, int b = 15) // For rectangle with default b
 {
     return l * b;
 }
+
+/*
+Output Example: 
+
+Area of square is 100
+Area of rectangle is 125
+Area of rectangle with default b is 375
+*/
