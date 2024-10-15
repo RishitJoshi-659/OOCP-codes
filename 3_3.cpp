@@ -30,3 +30,11 @@ int main() {
     obj.display();   // Call display function
     return 0;
 }
+
+/*
+Output Example:
+
+Local variable num: 30
+Class variable num: 20
+Global variable num: 10
+*/
