@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -83,6 +84,9 @@ class Tape : private Publisher  //using inheritance to use publisher members in 
 int main()
 {
     // This is not a necessary step its for error handling and all, u can simply declare objects and call functions like 'obj.func();'
+    Book book1;
+    Tape tape1;
+
     int a;
     cout << "What media would you like to chose?" << endl << "1: Book or 2: Tape" << endl << endl;
     cin >> a;
@@ -90,14 +94,12 @@ int main()
     switch (a)
     {
         case 1:
-            Book book1;
             cout << "Book Selected: " << endl;
             book1.get_details();
             book1.display_details();
             break;
 
         case 2:
-            Tape tape1;
             cout << "Tape Selected: " << endl;
             tape1.get_details();
             tape1.display_details();
