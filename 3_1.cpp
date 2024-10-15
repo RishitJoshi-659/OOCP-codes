@@ -14,11 +14,12 @@ class Student
         // Function to accept values of data members
         void get_details() 
         {
+            cout << "Enter Name: ";
+            getline(cin, name);
+            
             cout << "Enter Roll No: ";
             cin >> rollNo;
-            cout << "Enter Name: ";
-            cin >> name;
-
+            
             cout << "Enter marks for Science: ";
             cin >> science;
             cout << "Enter marks for Mathematics: ";
@@ -40,15 +41,15 @@ class Student
         // Function to display details of the student
         void display_details() const 
         {
-        cout << endl << "Student Roll No: " << rollNo << endl;
-        cout << "Name: " << name << endl;
-        cout << "Marks:" << endl;
-        cout << "Science: " << science << endl;
-        cout << "Mathematics: " << math << endl;
-        cout << "English: " << english << endl;
-        cout << "C++: " << cpp << endl;
-        cout << "DBMS: " << dbms << endl;
-        cout << "Total Marks: " << total << endl;
+            cout << "Name: " << name << endl;
+            cout << endl << "Student Roll No: " << rollNo << endl << endl;
+            cout << "Marks:" << endl;
+            cout << "Science: " << science << endl;
+            cout << "Mathematics: " << math << endl;
+            cout << "English: " << english << endl;
+            cout << "C++: " << cpp << endl;
+            cout << "DBMS: " << dbms << endl;
+            cout << "Total Marks: " << total << endl;
         }
 };
 
@@ -67,3 +68,26 @@ int main() {
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter Name: Rishit Joshi
+Enter Roll No: 659
+Enter marks for Science: 85
+Enter marks for Mathematics: 92
+Enter marks for English: 76
+Enter marks for C++: 89
+Enter marks for DBMS: 81
+
+Name: Rishit Joshi
+Student Roll No: 659
+
+Marks:
+Science: 85
+Mathematics: 92
+English: 76
+C++: 89
+DBMS: 81
+Total: 423
+*/
