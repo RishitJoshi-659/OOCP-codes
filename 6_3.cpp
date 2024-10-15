@@ -132,3 +132,61 @@ int main()
     }
     return 0;
 }
+
+/*
+Output Example:
+
+Enter Scheme Name: Super DEAL
+Enter Scheme ID: 1234
+Enter Outgoing Rate: 500
+Enter Message Rate: 280
+
+Enter Customer Name: Dehya
+Enter Customer ID: 13004
+Enter Customer Mobile Number: +91 834***34**
+
+Select Option:
+1: Call Details
+2: Message Details
+1
+Customer Details:
+
+Name: Dehya
+ID: 13004
+Mobile Number: +91 834***34**
+
+Scheme Details:
+
+Scheme Name: Super DEAL
+Scheme ID: 1234
+Outgoing Rate: 500
+
+
+OR
+
+
+Enter Scheme Name: Super DEAL
+Enter Scheme ID: 1234
+Enter Outgoing Rate: 500
+Enter Message Rate: 280
+
+Enter Customer Name: Dehya
+Enter Customer ID: 13004
+Enter Customer Mobile Number: +91 834***34**
+
+Select Option:
+1: Call Details
+2: Message Details
+2
+Customer Details:
+
+Name: Dehya
+ID: 13004
+Mobile Number: +91 834***34**
+
+Scheme Details:
+
+Scheme Name: Super DEAL
+Scheme ID: 1234
+Message rate: 280
+*/
