@@ -7,7 +7,7 @@ class C;
 class A
 {
     private:
-        int a;
+        float a;
     public:
 
         void getA()
@@ -21,7 +21,7 @@ class A
 class B
 {
     private:
-        int b;
+        float b;
     public: 
 
         void getB()
@@ -35,7 +35,7 @@ class B
 class C
 {
     private:
-        int c;
+        float c;
     public: 
 
         void getC()
@@ -67,3 +67,12 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter Value of A: 10
+Enter Value of B: 25
+Enter Value of C: 75
+The Average Value is: 36.6667
+*/
