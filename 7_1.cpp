@@ -110,3 +110,39 @@ int main()
     }
     return 0;
 }
+
+/*
+Output Example:
+
+What media would you like to chose?
+1: Book or 2: Tape
+
+1
+Book Selected: 
+Enter publisher's name: Eichiro Oda
+Enter title: One Piece
+Enter number of pages: 15000
+
+Publisher's Name: Eichiro Oda
+Title: One Piece
+Total Pages: 15000
+
+
+OR
+
+
+What media would you like to chose?
+1: Book or 2: Tape
+
+2
+Tape Selected: 
+Enter publisher's name: RandomGuy100 
+Enter title: Why Writing Code on Paper SUCKS!!!!
+Enter the play time hours:mins:secs : 10
+15
+23
+
+Publisher's Name: RandomGuy100
+Title: Why Writing Code on Paper SUCKS!!!!
+Total Play Time: 10hours 15minutes 23seconds
+*/
