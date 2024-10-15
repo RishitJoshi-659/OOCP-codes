@@ -56,3 +56,15 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter Rupees to add: 502
+Enter Paisa to add: 234
+Enter Rupees to add: 0532
+Enter Paisa to add: 234
+After adding:
+Rupees: 1038
+Paisa: 68
+*/
