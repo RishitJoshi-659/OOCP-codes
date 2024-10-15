@@ -1,3 +1,5 @@
+//Something took over me while writing this. IT HAS NO BUSINESS BEING THIS BIG!!!!!!!!!!!!!!!
+
 #include <iostream>
 #include <string>
 
@@ -230,3 +232,5 @@ void bank_action(CurrentAccount current_acc, SavingsAccount savings_acc)
     }
 }
 
+
+//THIS IS NOT COMPLETE ITS UNDER CONSTRUCTION XD
