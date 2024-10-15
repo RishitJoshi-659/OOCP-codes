@@ -92,3 +92,29 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Select Conversion Method:
+1: Rupees -> Paise
+2: Paise -> Rupees
+
+1
+Rupees -> Paise Selected:
+Enter your Rupee amount: 5348
+Converted Amount: 534800 paise
+
+
+OR
+
+
+Select Conversion Method:
+1: Rupees -> Paise
+2: Paise -> Rupees
+
+2
+Paise -> Rupees Selected:
+Enter your Paise amount: 66875 
+Converted Amount: 668.75 rupees
+*/
