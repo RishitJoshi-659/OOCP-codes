@@ -57,3 +57,11 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter Value of A: 10
+Enter Value of B: 25
+The Maximum Value is: 25
+*/
