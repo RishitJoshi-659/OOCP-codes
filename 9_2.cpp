@@ -90,3 +90,23 @@ int main()
 
     return 0;
 }
+
+/*
+Output Example:
+
+Enter initial x and y coordinates: 3 4
+Original Coordinates: (3, 4)
+
+Applying prefix ++
+Coordinates: (4, 5)
+
+Applying postfix ++
+Coordinates: (5, 6)
+
+Applying prefix --
+Coordinates: (4, 5)
+
+Applying postfix --
+Coordinates: (3, 4)
+
+*/
