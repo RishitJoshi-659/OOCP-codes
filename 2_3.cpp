@@ -14,7 +14,7 @@ int main()
     cout << "Enter Value of b: ";
     cin >> b; 
     int &sum = reference_return(a, b);
-    cout << sum;
+    cout << "Sum of a and b is " << sum;
     return 0;
 }
 
@@ -25,3 +25,11 @@ int &reference_return(int &x, int &y)
     temp = x + y;
     return temp;
 }
+
+/*
+Output Example:
+
+Enter Value of a: 10
+Enter Value of b: 25
+Sum of a and b is 35
+*/
